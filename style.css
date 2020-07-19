@@ -1,0 +1,660 @@
+*{margin: 0;
+padding: 0;}
+body {
+    background-color: lightskyblue;
+}
+.btn {
+    margin: 5px 10px 10px 15px;
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    font-size: medium;
+    cursor: pointer;
+    text-align: center;
+    height: 55px;
+    width: 70px;
+}
+  
+.btn:hover {
+    background-color: RoyalBlue;
+}
+.chat {
+    position: fixed;
+    bottom:10px;
+    right: 10px;
+    height: 30px;
+    border-radius: 30%;
+    width: 30px;
+    text-align: center;
+    opacity: 1;
+    font-size: small;
+    padding:10px;
+    background-color: rgba(22, 2, 2, 0.637);
+    color: rgb(237, 240, 241);
+}
+#home {
+    position: absolute;
+    background-color: rgb(30,144,255);
+    color:white;
+}
+#menu {
+    display:none;
+    position: relative;
+    top:20px;
+    margin: 70px 20px 40px 20px;
+    color: black;
+    line-height: 1.5em;
+    font-weight: 600;
+    font-family: calibri;
+    font-size: large;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+h1 {
+    color: firebrick;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.8;
+    text-shadow: 2px 1px rgb(226, 245, 144);
+    margin-bottom: 7px;
+}
+h3 {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 7px;
+}
+#link {
+    text-align: right;
+    background-color: rgb(218, 240, 158);
+    color: maroon;
+    background-clip: border-box;
+    border: 5px maroon;
+    padding: 8px;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    outline-color: maroon;
+}
+marquee {
+    color: black;
+    font-family: cochin;
+    font-size: large;
+}
+#resume {
+
+}
+#contact {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    font-size: large;
+    line-height: 1.5em;
+    position: relative;
+}
+#topb {
+    display:none;
+    float: right;
+    position: absolute;
+    right:100px;
+    top:60px;
+    font-size: large;
+}
+.arrow {
+    border: solid rgb(252, 250, 250);
+    border-width: 0px 8px 8px 0px;
+    display: inline-block;
+    padding: 3px;
+    font-size: x-large;
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+a:link{
+    text-align: right;
+    text-decoration: none;
+    background-color: rgba( 0, 100,0,0.1);
+    color:rgb(231, 97, 225);
+ }
+a:visited{
+    text-align: right;
+    text-decoration: none;
+    background-color:rgba(0,100,0,0.1);
+    color:rgb(76, 57, 243);
+}
+a:hover{
+    text-align: right; 
+    background-color:rgba(97, 200, 0, 0.1);
+    color:rgb(32, 233, 92)153, 153, 161);
+}
+a:active{
+    text-align: right; 
+    background-color:rgba( 100, 200,0,0.1);
+    color:rgb(50, 224, 65);
+}
+ul {
+    text-emphasis:italic;
+    color: teal;
+    line-height: 1.2;
+    word-spacing: 5px;
+    font-family: geneva;
+    font-size: medium;
+    font-variant: small-caps;
+    list-style-type: circle;
+    padding: 40px;
+}
+ul li {
+    padding: 5px;
+}
+#first {
+    margin: 15px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.cursor {
+    cursor: grab;
+}
+#resb {
+    color: rgba(15, 15, 15, 1);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: large;
+    font-weight: 600;
+    padding: 10px;
+    text-decoration-style: dotted;
+}
+#show { display:none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    background-color: rgb(240, 247, 176);
+    color: black;
+    text-align: center;
+    line-height: 2em;
+    word-spacing: 1.3em;
+    vertical-align: 50%;
+}
+#cbtn {
+    margin-left: 15px;
+    color: rgb(250, 7, 7);
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    border:5px tomato;
+    font-weight: bolder;
+}
+.container {
+    position: relative;
+    text-align: left;
+    color: rgb(12, 1, 1);
+}
+.post {
+    position: absolute;
+    top: 40px;
+    left: 90px;
+    opacity: 1;
+    font-family: calibri;
+    font-size: 30px;
+    font-weight: bold;
+}
+.op {opacity: 0.5;}
+.rel {position: relative;}
+.mypic {
+    margin-top: 15px;
+    margin-right: 100px;
+    float: right;
+    position: absolute;
+    right: 5px;
+}
+#head {
+    margin: 15px 20px 0px 20px;
+    background-color: rgb(76, 57, 243);
+    color: white;
+    padding: 10px 10px 10px 15px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+.content {
+    margin: 0px 15px 15px 20px;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    font-family: cursive;
+    font-size: medium;
+    font-weight: 500;
+    text-indent: 5px;
+}
+#quote {
+    margin: 10px 15px 15px 20px;
+    background-color: white;
+    color: rgb(235, 23, 129);
+    padding: 15px;
+    text-align: center;
+    font-family: verdana;
+    font-size: large;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-shadow: 3px 1px rgba(177, 222, 233, 0.815);
+}
+.myself {
+    margin: 15px;
+    background-color: white;
+    color:black;
+    padding: 15px;
+    font-family: cursive;
+    font-style: medium;
+    text-align: justify;
+    text-indent: 5px;
+}
+#para {
+    margin: 15px;
+    background-color: white;
+    color: green;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: 600;
+}
+#rule {
+    width: 80%;
+    color: gray;
+}
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 5px;
+    border-radius: 50%;
+  }
+  
+.fa:hover {
+      opacity: 0.7;
+      background-color: red;
+  }
+  
+.fa-facebook {
+    background: #ebedf100;
+    color: rgb(86, 83, 243);
+  }
+  
+.fa-linkedin {
+    background: #f8fcfc00;
+    color: rgb(101, 171, 250);
+  }
+  
+.fa-instagram {
+    background: #f1eeee00;
+    color: rgb(243, 50, 50);
+  }
+.fa-github {
+    background: #f5f2f200;
+    color: rgba(255, 255, 255, 0.952);
+  }
+.fa-whatsapp {
+    background: #f3eeee00;
+    color: rgb(32, 228, 97);
+}
+
+@media (min-width:336px) and (max-width: 509px) {
+      .op {
+          height: 150px;
+      }
+      h1 {
+          font-size: x-large;
+      }
+      .post {
+        position: absolute;
+        top: 30px;
+        left: 40px;
+        opacity: 1;
+        font-family: calibri;
+        font-size: 25px;
+        font-weight: 600;
+      }
+      #home {
+        position: absolute;
+        background-color: rgb(30,144,255);
+        color:white;
+        height: 0px;
+        margin: -5px 0px 0px -8px;
+      }
+      #menu {
+        display:none;
+        position: relative;
+        top:20px;
+        margin: 70px 20px 40px 20px;
+        color: black;
+        line-height: 1.5em;
+        font-weight: 600;
+        font-family: calibri;
+        font-size: large;
+        font-variant: small-caps;
+        text-decoration: none;
+      }
+      #first {
+        margin: 50px 15px 25px 15px;
+        padding:5px;
+        background-color: whitesmoke;
+        border-radius: 5px;
+      }
+      ul {
+        text-emphasis:italic;
+        color: teal;
+        line-height: 1.2;
+        word-spacing: 5px;
+        font-family: geneva;
+        font-size: medium;
+        font-variant: small-caps;
+        list-style-type: circle;
+        padding: 40px;
+        text-align: left;
+      }
+      .mypic {
+        margin-top: 15px;
+        margin-right: -10px;
+        margin-bottom: 10px;
+        float: right;
+        position: absolute;
+        top:150px;
+        left::600px;
+        height: 150px;
+        width: 150px;
+        border-radius: 10px;
+        text-shadow: 3px grey;
+      }
+      #head {
+        margin: 15px 15px 0px 20px;
+        background-color: rgb(76, 57, 243);
+        color: white;
+        padding: 10px 10px 10px 15px;
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        font-weight: 600;
+    }
+    .content {
+        margin: 0px 15px 15px 20px;
+        background-color: white;
+        color: black;
+        padding: 15px;
+        font-family: cursive;
+        font-size: medium;
+        font-weight: 500;
+        text-indent: 5px;
+    }
+    #quote {
+        margin: 0px 15px 0px 20px;
+        background-color: white;
+        color: rgb(235, 23, 129);
+        padding: 15px;
+        text-align: center;
+        font-family: verdana;
+        font-size: large;
+        text-decoration: underline;
+        text-decoration-style: wavy;
+        text-decoration-line: underline;
+        text-decoration-color: blue;
+        text-shadow: 3px 1px rgba(177, 222, 233, 0.815);
+    }
+    .myself {
+        margin: 0px 15px 15px 20px;
+        background-color: white;
+        color:black;
+        padding: 15px;
+        font-family: cursive;
+        font-style: medium;
+        text-align: justify;
+        text-indent: 5px;
+    }
+    #show { display:none;
+        margin: 10px 15px 10px 20px;
+        text-transform: capitalize;
+        padding: 15px;
+        border-radius: 10px;
+        font-family: cursive;
+        font-weight: 500;
+        background-color: rgb(240, 247, 176);
+        color: black;
+        text-align: center;
+        line-height: 2em;
+        word-spacing: 1.1em;
+        vertical-align: 50%;
+    }
+    #contact {
+        background-color: black;
+        padding: 20px;
+        color: white;
+        font-size: larger;
+        letter-spacing: 0.1em;
+        line-height: 1.5em;
+        position: relative;
+    }
+    #topb {
+        color: aqua;
+        right:50px;
+        top:40px;
+        font-size: large;
+    }
+  }
+
+  @media (min-width:510px) and (max-width:700px) {
+    .op {
+        height: 150px;
+    }
+    h1 {
+        font-size: xx-large;
+    }
+    .post {
+      position: absolute;
+      top: 30px;
+      left: 40px;
+      opacity: 1;
+      font-family: calibri;
+      font-size: 25px;
+      font-weight: 600;
+    }
+    #home {
+        position: absolute;
+        background-color: rgb(30,144,255);
+        color:white;
+        height: 0px;
+        margin: -5px 0px 0px -8px;
+      }
+      #menu {
+        display:none;
+        position: relative;
+        top:20px;
+        margin: 70px 20px 40px 20px;
+        color: black;
+        line-height: 1.5em;
+        font-weight: 600;
+        font-family: calibri;
+        font-size: large;
+        font-variant: small-caps;
+        text-decoration: none;
+      }
+      #first {
+        margin: 50px 15px 25px 15px;
+        padding:5px;
+        background-color: whitesmoke;
+        border-radius: 5px;
+      }
+      ul {
+        text-emphasis:italic;
+        color: teal;
+        line-height: 1.2;
+        word-spacing: 5px;
+        font-family: geneva;
+        font-size: medium;
+        font-variant: small-caps;
+        list-style-type: circle;
+        padding: 40px;
+        text-align: left;
+      }
+      .mypic {
+        margin-top: 15px;
+        margin-right: 5px;
+        float: right;
+        position: absolute;
+        right: 5px;
+        width:220px;
+        border-radius: 10px;
+        text-shadow: 3px grey;
+      }
+      #head {
+        margin: 15px 15px 0px 20px;
+        background-color: rgb(76, 57, 243);
+        color: white;
+        padding: 10px 10px 10px 15px;
+        text-transform: capitalize;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        font-weight: 600;
+    }
+    .content {
+        margin: 0px 15px 15px 20px;
+        background-color: white;
+        color: black;
+        padding: 15px;
+        font-family: cursive;
+        font-size: medium;
+        font-weight: 500;
+        text-indent: 5px;
+    }
+    #quote {
+        margin: 0px 15px 0px 20px;
+        background-color: white;
+        color: rgb(235, 23, 129);
+        padding: 15px;
+        text-align: center;
+        font-family: verdana;
+        font-size: large;
+        text-decoration: underline;
+        text-decoration-style: wavy;
+        text-decoration-line: underline;
+        text-decoration-color: blue;
+        text-shadow: 3px 1px rgba(177, 222, 233, 0.815);
+    }
+    .myself {
+        margin: 0px 15px 15px 20px;
+        background-color: white;
+        color:black;
+        padding: 15px;
+        font-family: cursive;
+        font-style: medium;
+        text-align: justify;
+        text-indent: 5px;
+    }
+    #show { display:none;
+        margin: 10px 15px 10px 20px;
+        text-transform: capitalize;
+        padding: 15px;
+        border-radius: 10px;
+        font-family: cursive;
+        font-weight: 500;
+        background-color: rgb(240, 247, 176);
+        color: black;
+        text-align: center;
+        line-height: 2em;
+        word-spacing: 1.1em;
+        vertical-align: 50%;
+    }
+  }
+  @media (max-width:335px) {
+    .op {
+        height: 100px;
+    }
+    h1 {
+        font-size: large;
+    }
+    .post {
+      position: absolute;
+      top: 30px;
+      left: 40px;
+      opacity: 1;
+      font-family: calibri;
+      font-size: 18px;
+      font-weight: 600;
+    }
+    #home {
+        position: absolute;
+        background-color: rgb(30,144,255);
+        color:white;
+        height: 0px;
+        margin: -5px 0px 0px -8px;
+      }
+      #menu {
+        display:none;
+        position: relative;
+        top:20px;
+        margin: 70px 20px 40px 20px;
+        color: black;
+        line-height: 1.5em;
+        font-weight: 600;
+        font-family: calibri;
+        font-size: large;
+        font-variant: small-caps;
+        text-decoration: none;
+      }
+      #first {
+        margin: 50px 15px 25px 15px;
+        padding:5px;
+        background-color: whitesmoke;
+        border-radius: 5px;
+      }
+      ul {
+        text-emphasis:italic;
+        color: teal;
+        line-height: 1.2;
+        word-spacing: 5px;
+        font-family: geneva;
+        font-size: medium;
+        font-variant: small-caps;
+        list-style-type: circle;
+        padding: 40px;
+        text-align: left;
+      }
+        .mypic {
+        margin-top: 15px;
+        margin-right: -10px;
+        margin-bottom: 10px;
+        float: right;
+        position: absolute;
+        top:200px;
+        left::600px;
+        height: 120px;
+        width: 120px;
+        border-radius: 10px;
+        text-shadow: 3px grey;
+      }
+      #head , #quote , #para {
+          font-size: small;
+      }
+      .content, .cursor {
+          font-size: small;
+      }
+      #contact{
+          font-size: large;
+          letter-spacing: 0.1em;
+      }
+      #show {
+          font-size:small;
+          margin: 15px 15px 5px 15px;
+          font-weight: 500;
+          border-radius: 8px;
+      }
+  }
